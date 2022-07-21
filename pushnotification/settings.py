@@ -136,12 +136,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 PUSH_NOTIFICATIONS_SETTINGS = {
-        "FCM_API_KEY": "	AAAAV--jkkA:APA91bGmZTEm-UyhGz_3ZHTZlcmbBezCi4p2D80DMcByLMEqtk3zsIlx8Nuu_H1-BeGP3RHnmUOoFllCVGn5Z4Utor75CW-O26hXspBkBvJaOpvzHItaZlY_KXYY2iSwSc04PTeSIy6k",
+        "FCM_API_KEY": "",
         "GCM_API_KEY": "[your api key]",
         "APNS_CERTIFICATE": "/path/to/your/certificate.pem",
         "APNS_TOPIC": "com.example.push_test",
         "WNS_PACKAGE_SECURITY_ID": "[your package security id, e.g: 'ms-app://e-3-4-6234...']",
         "WNS_SECRET_KEY": "[your app secret key, e.g.: 'KDiejnLKDUWodsjmewuSZkk']",
         "WP_PRIVATE_KEY":  os.path.join(BASE_DIR, "private_key.pem"),
-        "WP_CLAIMS": {'sub': "mailto: sunilgehlot703@gmail.com"}
+        "WP_CLAIMS": {'sub': "mailto: email"}
 }
